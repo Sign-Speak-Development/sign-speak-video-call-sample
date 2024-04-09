@@ -1,0 +1,26 @@
+diff --git a/node_modules/agora-react-uikit/dist/index.js b/node_modules/agora-react-uikit/dist/index.js
+index 4fa04f0..3069919 100644
+--- a/node_modules/agora-react-uikit/dist/index.js
++++ b/node_modules/agora-react-uikit/dist/index.js
+@@ -1785,7 +1785,7 @@ var GridVideo = function GridVideo() {
+       width: '100%',
+       height: '100%',
+       display: 'grid',
+-      gridTemplateColumns: isLandscape ? users.length > 9 ? unit.repeat(4) : users.length > 4 ? unit.repeat(3) : users.length > 1 ? unit.repeat(2) : unit : users.length > 8 ? unit.repeat(3) : users.length > 2 ? unit.repeat(2) : unit
++      gridTemplateColumns: isLandscape ? users.length > 8 ? unit.repeat(4) : users.length > 3 ? unit.repeat(3) : users.length > 0 ? unit.repeat(2) : unit : users.length > 7 ? unit.repeat(3) : users.length > 1 ? unit.repeat(2) : unit
+     }, gridVideoContainer)
+   }, users.map(function (user) {
+     return React__default.createElement(MaxVideoView, {
+diff --git a/node_modules/agora-react-uikit/dist/index.modern.js b/node_modules/agora-react-uikit/dist/index.modern.js
+index ce271b3..48b5840 100644
+--- a/node_modules/agora-react-uikit/dist/index.modern.js
++++ b/node_modules/agora-react-uikit/dist/index.modern.js
+@@ -1785,7 +1785,7 @@ var GridVideo = function GridVideo() {
+       width: '100%',
+       height: '100%',
+       display: 'grid',
+-      gridTemplateColumns: isLandscape ? users.length > 9 ? unit.repeat(4) : users.length > 4 ? unit.repeat(3) : users.length > 1 ? unit.repeat(2) : unit : users.length > 8 ? unit.repeat(3) : users.length > 2 ? unit.repeat(2) : unit
++      gridTemplateColumns: isLandscape ? users.length > 8 ? unit.repeat(4) : users.length > 3 ? unit.repeat(3) : users.length > 0 ? unit.repeat(2) : unit : users.length > 7 ? unit.repeat(3) : users.length > 1 ? unit.repeat(2) : unit
+     }, gridVideoContainer)
+   }, users.map(function (user) {
+     return React.createElement(MaxVideoView, {
